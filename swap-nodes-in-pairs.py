@@ -38,7 +38,7 @@ if __name__ == "__main__":
     l1 = list_to_listnode([1, 2, 3, 4, 5])
     solution = Solution()
     l2 = solution.swapPairs(l1)
-    p = l2
-    while p is not None:
-        print p.val
-        p = p.next
+    p0 = l2
+    while p0 is not None:
+        print p0.val
+        p0 = p0.next
